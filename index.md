@@ -1,6 +1,6 @@
 ---
 layout: welcome
-title: Bioinformatics <br> (BIMM 143, Winter 2018)
+title: Bioinformatics <br> (BIMM 143, Spring 2018)
 selected_projects:
   - _projects/welcome-screencast.md
   - _projects/using-jetstream-for-bioinformatics.md
@@ -40,7 +40,7 @@ Lectures are on Tuesday and Thursday at 9:00 - 12:00 pm in Warren Lecture Hall 2
 All announcements regarding the course will be by email to your UCSD address.  
 
 ## Office hours & location:  
-Alex will hold office hours on Wednesdays and Thursdays from 3-4pm in Room 340, CMM-West (Cellular and Molecular Medicine West) [Map](https://goo.gl/maps/CkAJwwfo3M52){:.no-push-state}.      
+TBD.        
 
 From week 3 onward Barry will hold an additional informal office hour from 1-2pm at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}.  
 
@@ -50,11 +50,11 @@ If you can't make either of these please email for a time and we will make it ha
 There is no textbook for the course. Lecture notes, homework assignments, grading criteria, pre-class screen casts and required reading material will be available from this public facing course website.  
 
 ## Syllabus:  
-A detailed [syllabus]({{ site.baseurl }}/class-material/BIMM143_W18_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
+A detailed [syllabus]({{ site.baseurl }}/class-material/BIMM143_S18_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
 
 ## Surveys:
 Please help us improve this course by completing by completing these surveys before and after the course. Thank you!
-* [Pre-course questionnaire](https://goo.gl/forms/n4NAf1CwCZfgjICs2)  
+* [Pre-course questionnaire](https://goo.gl/forms/BPWFRDYw2zIXEYGc2)  
 * [Post-course questionnaire]({{ site.baseurl }}/404/)  
 
 ## Acknowledgments:
