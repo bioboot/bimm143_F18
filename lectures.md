@@ -66,7 +66,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Understand course scope, expectations, logistics and [ethics code]({{ site.baseurl }}/ethics/).  
 - Understand the increasing necessity for computation in modern life sciences research.  
 - Get introduced to how bioinformatics is practiced.  
-- Complete the [pre-course questionnaire](https://goo.gl/forms/n4NAf1CwCZfgjICs2).  
+- Complete the [pre-course questionnaire](https://goo.gl/forms/rWyTVa23zFClw1qq1).  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
 - The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst actively investigating the molecular basis of several common human disease.
 
