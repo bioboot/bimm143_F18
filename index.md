@@ -40,7 +40,7 @@ Lectures are on Tuesday and Thursday at 9:00 - 12:00 pm in Warren Lecture Hall 2
 All announcements regarding the course will be by email to your UCSD address.  
 
 ## Office hours & location:  
-Alena (Email: <amartsul@ucsd.edu>) will hold office hours on Wednesdays and Thursdays from 3-4pm in a location to be announced in Lecture 1.  
+Alena (Email: <amartsul@ucsd.edu>) will hold office hours in the Muir Biology building Rm. 3266. Please sign up for your [preferred time](https://doodle.com/poll/ufndcggf7ehv2pge){:.no-push-state}.    
 
 From week 3 onward Barry will hold an additional informal office hour from 12-1pm at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}.  
 

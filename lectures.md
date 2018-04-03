@@ -81,7 +81,8 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
-- [Questions](https://goo.gl/forms/ICHJLPmosY75xhPt2),  
+- [Questions](https://goo.gl/forms/ICHJLPmosY75xhPt2){:.no-push-state},  
+- [Office Hours Sign Up](https://doodle.com/poll/ufndcggf7ehv2pge){:.no-push-state},  
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state},  
