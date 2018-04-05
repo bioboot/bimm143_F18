@@ -75,7 +75,8 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state},      
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BIMM143_S18.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://docs.google.com/forms/d/e/1FAIpQLSe9ntawURWzndzrCtlgSnLasA-0vc1ZUUpPAXsDi6r7n-EZKw/viewform){:.no-push-state}.  
+- Feedback: [Muddy Point Assessment](https://docs.google.com/forms/d/e/1FAIpQLSe9ntawURWzndzrCtlgSnLasA-0vc1ZUUpPAXsDi6r7n-EZKw/viewform){:.no-push-state},    
+- Feedback: [Responses](https://docs.google.com/forms/d/1Lb4BEX5zN5H7SidBSEkjbeZ4LOB2Hm3sVXqq9-Ok2OQ/viewanalytics){:.no-push-state}.  
 
 - Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_S18_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
