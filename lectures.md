@@ -136,7 +136,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BIMM143_S18-lab.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/YruIToqhi72h89vS2){:.no-push-state}.   
-- Feedback: [Results](https://docs.google.com/forms/d/1KvSiFj7j-8dpQ3AwfBIFB4fJyKk6gjtU_4ZMd3i90Qw/edit#responses){:.no-push-state}.  
+- Feedback: [Results](https://docs.google.com/forms/d/1KvSiFj7j-8dpQ3AwfBIFB4fJyKk6gjtU_4ZMd3i90Qw/viewanalytics){:.no-push-state}.  
 
 
 **Homework**:   
@@ -193,7 +193,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section 1]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/FGy3xjaIaKot573v2){:.no-push-state},  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScfn86ieqHmHGzQs8qGOf_Y1tzB2_uRcaFDlBnxKYi3Tnzupg/viewanalytics?usp=form_confirm){:.no-push-state}. -->  
+- Feedback: [Responses](https://docs.google.com/forms/d/1cvALp8g0nLdk8zhdb97NB27uWRZdXNOUA6pMC5GXsWo/viewanalytics){:.no-push-state}.  
 
  
 **Homework**:   
@@ -221,8 +221,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/05_draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/05_draw_lecture_plots2/){:.no-push-state},  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state},  
 - Example data for hands-on sections [bimm143_05_rstats.zip]({{ site.baseurl }}/class-material/bimm143_05_rstats.zip){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/TReoCLQvYhP2d0KY2){:.no-push-state},  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSe4OaFIL7ibLU38ifwM6GWJE2adzU3nEe5KY9zXhQufkgTK5Q/viewanalytics){:.no-push-state}.    
+- Feedback: [Muddy point assessment](https://goo.gl/forms/zi8wR5SIh3RRLZSk2){:.no-push-state},  
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSe4OaFIL7ibLU38ifwM6GWJE2adzU3nEe5KY9zXhQufkgTK5Q/viewanalytics){:.no-push-state}. -->   
  
  
 **Homework**:   
@@ -249,7 +249,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BIMM143_W18.pdf){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/i5FWaVxlwb4Vxyim1){:.no-push-state},  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}.  
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}.  -->  
 
 
 **Homework**:   
@@ -276,7 +276,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1sFN7u8h2Sz0DwC-wscwJz3kkzf7OOP82oQR4jubvfZQ/edit?usp=sharing){:.no-push-state},    
 - [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/lghN1iI2fjfwxpvq2){:.no-push-state}.      
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScapTSuiHiMvNHB-6MWV4PzmBAw2TyD4LaaibG1d7GcPCcA2A/viewanalytics){:.no-push-state}.  
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScapTSuiHiMvNHB-6MWV4PzmBAw2TyD4LaaibG1d7GcPCcA2A/viewanalytics){:.no-push-state}.  -->
  
  
 **Homework**:   
@@ -311,7 +311,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
 - [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
 - Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}.  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd1UoERB-ADt_mUsWAnR50GDqV4BGm6cMvWUNH6fymwDRUvcg/viewanalytics){:.no-push-state}.        
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd1UoERB-ADt_mUsWAnR50GDqV4BGm6cMvWUNH6fymwDRUvcg/viewanalytics){:.no-push-state}. -->       
 
  
 
@@ -333,7 +333,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lecture9_lab/){:.no-push-state}  
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}.   
 - Bio3D PCA App: [http://bio3d.ucsd.edu](http://bio3d.ucsd.edu){:.no-push-state}.   
-- Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}.   
+<!-- - Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}. -->  
 
 
 <hr>
@@ -404,7 +404,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Software download links: [AutoDock Tools](http://mgltools.scripps.edu/downloads){:.no-push-state},  [AutoDock Vina](http://vina.scripps.edu/download.html){:.no-push-state},  [VMD](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}  
 - Optional backup files: [1]({{ site.baseurl }}/class-material/config.txt){:.no-push-state}, [2]({{ site.baseurl }}/class-material/1hsg_protein.pdbqt){:.no-push-state}, [3]({{ site.baseurl }}/class-material/indinavir.pdbqt){:.no-push-state}, [log.txt]({{ site.baseurl }}/class-material/log.txt){:.no-push-state}, [all.pdbqt]({{ site.baseurl }}/class-material/all.pdbqt){:.no-push-state}  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/UeIzhvgXFHmecVda2){:.no-push-state}  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd5-3_tu5m81Pkt1wyZSAK0wWMqRD3Hs0GttVyKh9Fa2Nkpag/viewanalytics){:.no-push-state}.
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd5-3_tu5m81Pkt1wyZSAK0wWMqRD3Hs0GttVyKh9Fa2Nkpag/viewanalytics){:.no-push-state}. -->
 
 
 <hr>
