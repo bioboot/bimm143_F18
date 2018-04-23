@@ -169,6 +169,9 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-small.pdf){:.no-push-state},    
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BIMM143_S18-lab.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/aHSx1kspL2Qg1ytq1){:.no-push-state}.   
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSdCuxK-O23Q31HdX1w0Bt7qM-6td8usRuVK1_8DkOBGDMI5GA/viewanalytics){:.no-push-state}.  
+
+
 
 **Homework**:   
 - [DataCamp Sign Up!](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-s18){:.no-push-state},  
@@ -222,7 +225,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state},  
 - Example data for hands-on sections [bimm143_05_rstats.zip]({{ site.baseurl }}/class-material/bimm143_05_rstats.zip){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/zi8wR5SIh3RRLZSk2){:.no-push-state},  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSe4OaFIL7ibLU38ifwM6GWJE2adzU3nEe5KY9zXhQufkgTK5Q/viewanalytics){:.no-push-state}. -->   
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSdWlHtEtvO03iK8H_CNjSzvgGrqkkSr4GyCVpE1xNz0KvyBww/viewanalytics){:.no-push-state}.  
+
  
  
 **Homework**:   
@@ -249,11 +253,11 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BIMM143_S18_lab.pdf){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/i5FWaVxlwb4Vxyim1){:.no-push-state},  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}.  -->  
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}.   
 
 
 **Homework**:   
-- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
+- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_S18_lab.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
 - The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-s18/assignments){:.no-push-state}.   
  
 
@@ -273,14 +277,15 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-small.pdf){:.no-push-state},  
-- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1sFN7u8h2Sz0DwC-wscwJz3kkzf7OOP82oQR4jubvfZQ/edit?usp=sharing){:.no-push-state},    
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1kXO8Z0kYPOois6AixmAu3HVcbUEWKU2KfyZjLdk9C3w/edit?usp=sharing){:.no-push-state},    
 - [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/lghN1iI2fjfwxpvq2){:.no-push-state}.      
+- Feedback: [Muddy point assessment](https://goo.gl/forms/N35hmj7uCYgnHMwA3){:.no-push-state}.      
 <!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLScapTSuiHiMvNHB-6MWV4PzmBAw2TyD4LaaibG1d7GcPCcA2A/viewanalytics){:.no-push-state}.  -->
+- SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}.   
  
  
 **Homework**:   
- See **Q6** from the last days [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
+ See **Q6** from the last days [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_S18_lab.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
 - The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-s18/assignments){:.no-push-state}.   
  
 
