@@ -358,7 +358,7 @@ The complete assignment, including responses to all questions, is due at the beg
 Late responses will not be accepted under any circumstances.  
 
 ## Bonus: Hands-on with Git  
-Today’s lecture and hands-on sessions with introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
+Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
 
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture10-BIMM143_small.pdf){:.no-push-state},  
 - Lab: [Hands-on with Git](http://tinyurl.com/rclass-github){:.no-push-state}  
@@ -381,9 +381,9 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143_small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BIMM143_W18.pdf){:.no-push-state}  
+- Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BIMM143_S18.pdf){:.no-push-state}  
 - Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/elweVfSycVIt8Ecd2){:.no-push-state}.  
+- Feedback: [Muddy point assessment](https://goo.gl/forms/NpFkln0gzxbULi6F3){:.no-push-state}.  
 
 
 
