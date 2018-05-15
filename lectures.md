@@ -437,12 +437,16 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Feedback: [Muddy point assessment](https://goo.gl/forms/pRJITgVXu7gz6dre2){:.no-push-state}.  
 
 ## IPs - to be updated  
-- 149.165.169.245  
-- 129.114.17.65  
-- 129.114.17.251  
-- 149.165.156.226  
-- 149.165.170.88  
-- 129.114.17.244  
+- 149.165.157.76  
+- 149.165.156.175  
+- 149.165.168.14  
+- 129.114.17.25  
+- 149.165.168.58  
+- 129.114.17.186
+- 149.165.168.198
+- 129.114.104.88
+- 129.114.104.18  
+- 149.165.168.123
 
 
 <hr>
