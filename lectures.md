@@ -436,7 +436,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}.  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/pRJITgVXu7gz6dre2){:.no-push-state}.  
 
-## IPs - to be updated  
+## IPs     
 - 149.165.157.76  
 - 149.165.156.175  
 - 149.165.168.14  
@@ -447,6 +447,17 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - 129.114.104.88
 - 129.114.104.18  
 - 149.165.168.123
+- 149.165.157.208
+- 149.165.156.158
+- 129.114.104.32
+- 149.165.157.44
+- 149.165.168.199
+- 149.165.168.217
+- 149.165.168.216
+- 129.114.16.25
+- 149.165.168.212
+- 129.114.16.27
+- to be updated
 
 
 <hr>
