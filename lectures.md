@@ -500,14 +500,14 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Material**:   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143_W18-small.pdf){:.no-push-state}.  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143-small.pdf){:.no-push-state}.  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture15_BIMM143_W18/){:.no-push-state}  
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
 - Muddy point assessment
  
 
-**Homework**:
-[**Quiz Assessment**](https://goo.gl/forms/8xKqSGba3BAmuGx02){:.no-push-state} 
+**R Knoweledge Check**:
+[**Quiz Assessment**](https://goo.gl/forms/QiBFMBZhcHF9ZlU83){:.no-push-state} 
 
 **Readings**:    
  - Good review article: Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al. "*Differential analysis of gene regulation at transcript resolution with RNA-seq*". Nat Biotechnol 2013 Jan;31(1):46-53. [PMID: 23222703](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}.  
