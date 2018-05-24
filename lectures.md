@@ -520,6 +520,18 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 <a name="16"></a>
 <br>
 
+## 16: Project workflow with Alena
+An example of a complete bioinformatics workflow for transposon insertion followed by sequencing to study interactions between genes.
+
+**Material**:   
+- Lecture Slides: [PDF]({{ site.baseurl }}/class-material/BIMM143_Lecture16-large.pdf){:.no-push-state}.  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/TnSeq_practice_section.html){:.no-push-state}.  
+- Data files: [Experimental_results.csv]({{ site.baseurl }}/class-material/Experimental_results.csv){:.no-push-state}.
+
+
+
+<!--
+
 ## 16: Essential statistics for bioinformatics 
 **Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask! Extensive R examples and applications.
 
@@ -532,6 +544,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
   - [RNA-seq_PV_neurons_rep2_TPM_by_names.tsv]({{ site.baseurl }}/class-material/RNA-seq_PV_neurons_rep2_TPM_by_names.tsv){:.no-push-state}.   
 - Feedback: [Muddy point assessment](https://goo.gl/forms/YBPM7MoMTqKNnLoV2){:.no-push-state}.  
 
+-->
 
 
 
