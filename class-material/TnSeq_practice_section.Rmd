@@ -1,0 +1,231 @@
+---
+title: "TnSeq_practice"
+author: "Alena Marstul"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+Lets load the libraries we are going to use in this practice section
+```{r}
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(readr)
+```
+
+Lets load the file with experimental results from TnSeq experiment
+
+The path to the file is different for you. Please make sure to specify a correct path. Let Alena know if you have any problems with that.
+```{r}
+#Note: tbl_df function forwards the argument to "as_data_frame""
+
+exp_data<-read.csv("~/Documents/1st_Year/TAing/BIMM143/BIMM143_data/Experimental_results.csv")
+head(exp_data)
+```
+As you see, this table has several columns. Column "Strain" shows which strain was used in the experiment. "Environment" shows conditions in which microorganisms were propagated. Columns "Mut_ID" and "BC_ID" give information about type of mutations and barcodes that correspond to them. Columns "H_0": "H_96" show frequenfy of each barcode over time.
+
+Lets modify a table:
+
+First, remove the column "X". We are not going to use the information contained in it.
+For this we are going to use function "select"
+```{r}
+# Remove column "X" from a dataframe:
+exp_data<-select(exp_data, -X)
+head(exp_data)
+```
+Lets get ready for plotting:
+
+We are going to use ggplot2 package. Please check the syntax that is commonly used for plotting with this package. Does everything make sense? 
+
+```{r}
+# Information from a ggplot description page:
+# ggplot(df, aes(x, y, <other aesthetics>))
+```
+
+To make a graph, we need two give a function 2 variables (2 columns) to plot them against each other.
+
+What variables are we going to use?
+
+Lets rearrange our table to be able to plot the data easily.
+Instead on keeping information about barcode frequency in rows, we are going to create a column "Time" with time points and a column "Frequency" with corresponding barcode frequencies.
+
+* Explanation on the board.
+
+```{r}
+# First, check how function "gather" works
+exp_rearranged<-gather(exp_data, Generation, Frequency,H_0:H_96)
+head(exp_rearranged)
+```
+You might have noticed that "Generation" column contains both "H" that stands for "hours" and numbers. Lets remove "H_" part from this column.
+
+Check the syntax of "separate" function.
+```{r}
+# Separate values in "Generation" column into 2 columns
+table_for_graph<-separate(exp_rearranged,Generation,into=c("H","Time"))
+head(table_for_graph)
+
+# Remove column "H" using function "select"
+table_for_graph<-select(table_for_graph, -H)
+table_for_graph
+```
+You might have noticed that our table contains a lot of "NA" values.
+Go ahead and remove them with na.omit function. Don't forget to check it's syntax first!
+```{r}
+table_cleaned<-na.omit(table_for_graph)
+table_cleaned$Time<-as.numeric(table_cleaned$Time)
+head(table_cleaned)
+```
+Now the table is ready.
+How are we going to plot all the values? Do we need to separate them in any way? If yes, then how?
+
+```{r}
+# We might need to plot data for each strain separately..
+DivAnc<-filter(table_cleaned, table_cleaned$Strain=="DivAnc")
+L013<-filter(table_cleaned, table_cleaned$Strain=="L013")
+
+
+```
+
+```{r}
+# make a plot for DivAnc strain
+DivAnc_plot=ggplot(DivAnc)+geom_line(aes(x=Time,y=Frequency,group=BC_ID),alpha=.2,colour="#000033")+ggtitle("DivAnc_SC3")+theme(plot.title = element_text(hjust = 0.5))+xlab("Time, hours") + ylab("Log10(Barcode frequency)")
+DivAnc_plot
+```
+
+```{r}
+# make a plot for L013 strain
+L013_plot=ggplot(L013)+geom_line(aes(x=Time,y=Frequency,group=BC_ID),alpha=.2,colour="#CC6633")+ggtitle("L013_SC3")+theme(plot.title = element_text(hjust = 0.5))+xlab("Time, hours") + ylab("Log10(Barcode frequency)")
+L013_plot
+```
+
+
+Can we make 2 graphs at the same time?
+
+```{r}
+ggplot(table_cleaned)+geom_line(aes(x=Time,y=Frequency,group=BC_ID),alpha=.2,colour="#000033")+facet_grid(.~Strain)+ggtitle("Barcode trajectories")+theme(plot.title = element_text(hjust = 0.5))+xlab("Time, hours") + ylab("Log10(Barcode frequency)")
+
+```
+
+Lets pick one mutation and check how it behaves in different strains
+
+```{r}
+# I've chosen Mut_ID==34
+mut34<-filter(table_cleaned, table_cleaned$Mut_ID=="34")
+mut34          
+```
+```{r}
+ggplot(mut34,aes(Time, Frequency, group=BC_ID, color=BC_ID))+geom_line()+theme(legend.position="none")+facet_grid(.~Strain)+ggtitle("Mutation_34")+xlab("Time, hours") + ylab("Log10(Barcode frequency)")+theme(plot.title = element_text(hjust = 0.5))
+```
+What can you tell looking at this plot?
+Why do we have 2 clusters of barcodes?
+
+Lets filter out barcodes with frequency > (-5) and use them for subsequent analysis.
+```{r}
+mut34_f<-filter(mut34, mut34$Frequency>(-5))
+mut34_f
+```
+
+Plot again the same type of graph, but use filtered data. Make sure that you have done everything right.
+
+```{r}
+ggplot(mut34_f,aes(Time, Frequency, group=BC_ID, color=BC_ID))+geom_line()+theme(legend.position="none")+facet_grid(.~Strain)+ggtitle("Mutation_34")+xlab("Time, hours") + ylab("Log10(Barcode frequency)")+theme(plot.title = element_text(hjust = 0.5))
+```
+
+
+```{r}
+ggplot(mut34_f,aes(Time, Frequency, colour = BC_ID, group=BC_ID))+geom_point()+geom_smooth(se = FALSE, method = "lm")+facet_grid(.~Strain)+theme(legend.position="none")+ggtitle(paste("Mutation",34, sep="_"))+xlab("Time, hours")+ ylab("Log10(Barcode frequency)")
+```
+Now you chan choose a different mutation and check how it behaves across strains.
+
+Now it's time to estimate slope for each barcode.
+Lets greate a file that will contain information about BC_ID, Mut_ID, Strain, and estimated slope.
+
+```{r}
+# Lets become familiar with lm function:
+
+# For this exercise, take the filtered data for mutation 34 (mut34_f) and filter out information about one barcode you like
+
+# I have chosen BC_ID=25361 in DivAnc strain
+BC_25361<-filter(mut34_f, mut34_f$BC_ID=="25361", mut34_f$Strain=="DivAnc")
+BC_25361
+```
+```{r}
+#Lets plot frequency of this barcode:
+ggplot(BC_25361,aes(Time, Frequency, colour = BC_ID))+geom_point()+theme(legend.position="none")+ggtitle("BC_25361")+xlab("Time, hours") + ylab("Log10(Frequency)")
+```
+```{r}
+#Lets use lm function to fit the line to these points:
+ggplot(BC_25361,aes(Time, Frequency, colour = BC_ID))+geom_point()+geom_smooth(se = FALSE, method = "lm")+theme(legend.position="none")+ggtitle("BC_25361")+xlab("Time, hours") + ylab("Log10(Frequency)")
+```
+
+```{r}
+# Lets check what data does lm function return:
+regression_model<-lm(Frequency~Time,BC_25361)
+summary_data<-summary(regression_model)
+summary_data
+```
+```{r}
+# The information we are interested in is the value of Slopeand Intercept of this line:
+# Let's try to access them:
+
+# Time
+Time<-summary_data$coefficients[2]
+Time
+
+# Intercept:
+Intercept<-summary_data$coefficients[1]
+Intercept
+
+```
+ Now we can find slopes for each barcode for each mutation in all strains.
+
+```{r}
+# Lets create the file:
+data_header=matrix(data = NA,nrow = 1,ncol = 7)
+        data_header[1]="Mut_ID"
+        data_header[2]="BC_ID"
+        data_header[3]="Strain"
+        data_header[4]="Slope"
+        data_header[5]="Intercept"
+        data_header[6]="R^2"
+write.table(data_header,"~/Documents/1st_Year/TAing/BIMM143/BIMM143_data/Tnseq_practice_output.csv",append = FALSE, sep = ",",eol="\n",dec=".",row.names = FALSE,col.names = FALSE)
+```
+
+
+```{r}
+for (mut in unique(table_cleaned$Mut_ID)) {
+    mut_data=filter(table_cleaned,table_cleaned$Mut_ID==paste(mut))
+    #now we have all data for each mutation separately
+    for (bc in unique (mut_data$BC_ID)) {
+      #now we filtered data for each barcode within 1 mutation
+      bc_mut_data=filter(mut_data,mut_data$BC_ID==paste(bc))
+      for (strain in unique (bc_mut_data$Strain)) {
+        str_bc_mut_data=filter(bc_mut_data,bc_mut_data$Strain==paste(strain))
+        #only considering combinations with 3 or more data points - anything less is statistically insignificant
+        if (nrow(str_bc_mut_data)>2){
+          regression_model=lm(Frequency~Time,str_bc_mut_data)
+          summary_data=summary(regression_model)
+          #now write to the output file! Prepare the data array first
+          data_output=matrix(data = NA,nrow = 1,ncol = 6)
+          data_output[1]=mut
+          data_output[2]=bc
+          data_output[3]=strain
+          #slope
+          data_output[4]=summary_data$coefficients[2]
+          #intercept
+          data_output[5]=summary_data$coefficients[1]
+          #r-squared
+          data_output[6]=summary_data$r.squared
+          #time to write
+          write.table(data_output,"~/Documents/1st_Year/TAing/BIMM143/BIMM143_data/Tnseq_practice_output.csv",append = TRUE, sep = ",",eol="\n",dec=".",row.names = FALSE,col.names = FALSE)
+      }
+    }
+  }
+ }
+
+  
+
+
+```
+
