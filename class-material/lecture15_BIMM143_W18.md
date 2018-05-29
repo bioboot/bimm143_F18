@@ -8,7 +8,7 @@ Pathway analysis from RNA-seq differential expression results
 
 **BIMM-143 Lecture 15:**  
 Barry Grant &lt; <http://thegrantlab.org> &gt;  
-Date: 2018-02-22   (23:17:42 PST on Thu, Feb 22)  
+Date: 2018-05-22   (08:46:11 PDT on Tue, May 22)  
 {:.message}
 
 
@@ -49,7 +49,6 @@ Section 1. Differential Expression Analysis
 You can download the count data and associated metadata from here: [GSE37704\_featurecounts.csv](https://bioboot.github.io/bimm143_W18/class-material/GSE37704_featurecounts.csv) and [GSE37704\_metadata.csv](https://bioboot.github.io/bimm143_W18/class-material/GSE37704_metadata.csv). This is similar to our starting point for the last class where we used DESeq2 for the first time. We will use it again today!
 
 ``` r
-#library(dplyr)
 library(DESeq2)
 ```
 

@@ -558,15 +558,14 @@ An example of a complete bioinformatics workflow for transposon insertion follow
 **Topics**: Network graph approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Graph theory; Major network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); De novo sub-network construction and clustering. Hands-on with Cytoscape and R packages for network visualization and analysis.
 
 **Goals**:
-- Understand the challenges in integrating and interpreting large heterogenous high throughput data sets into their functional context.  
 - Be able to describe the major goals of biological network analysis and the concepts underlying network visualization and analysis.   
 - Be able to use Cytoscape for network visualization and manipulation.
 - Be able to find and instal Cytoscape Apps to extend network analysis functionality.  
 - Appreciate that the igraph R package has extensive network analysis functionality beyond that in Cytoscape and that the R bioconductor package RCy3 package allows us to bring networks and associated data from R to Cytoscape so we can have the best of both worlds. 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18-small.pdf){:.no-push-state}.  
-- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18_lab1.pdf){:.no-push-state}  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_BIMM143-small.pdf){:.no-push-state}.  
+- [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture17_BIMM143_S18_lab1.pdf){:.no-push-state}  
 - [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18/){:.no-push-state}  
 - Data files:  
   - [galFiltered.sif]({{ site.baseurl }}/class-material/galFiltered.sif){:.no-push-state},  
