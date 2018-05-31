@@ -587,7 +587,7 @@ An example of a complete bioinformatics workflow for transposon insertion follow
 **Topics**: Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects; NCI Genomic Data Commons; What has been learned from genome sequencing of cancer? **Immunoinformatics, immunotherapy  and cancer**; Using genomics and bioinformatics to harness a patient’s own immune system to fight cancer. Implications for the development of personalized medicine.
 
 **Material**: 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_W18-small.pdf){:.no-push-state}.  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/Lecture18_BIMM143_S18-small.pdf){:.no-push-state}.  
 - [Hands-on section worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BIMM143_W18/){:.no-push-state}  
 - [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BIMM143_W18/){:.no-push-state}  
 - Data files:  
