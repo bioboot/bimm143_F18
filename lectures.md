@@ -74,16 +74,16 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state},      
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BIMM143_S18.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://docs.google.com/forms/d/e/1FAIpQLSe9ntawURWzndzrCtlgSnLasA-0vc1ZUUpPAXsDi6r7n-EZKw/viewform){:.no-push-state},    
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BIMM143_F18.pdf){:.no-push-state}  
+- Feedback: [Muddy Point Assessment](https://docs.google.com/forms/d/e/1FAIpQLSemV6lwIbzeNA52gmKwfzLin63m-881j-DDHpgVekWJNtU4Rg/viewform){:.no-push-state},    
 <!-- - Feedback: [Responses](https://docs.google.com/forms/d/1Lb4BEX5zN5H7SidBSEkjbeZ4LOB2Hm3sVXqq9-Ok2OQ/viewanalytics){:.no-push-state}. --> 
 
 - Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_F18_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
-- [Questions](https://goo.gl/forms/ICHJLPmosY75xhPt2){:.no-push-state},  
-- [Office Hours Sign Up](https://doodle.com/poll/ufndcggf7ehv2pge){:.no-push-state},  
+- [Questions](https://goo.gl/forms/LH6cwf4NqqiNwGoE3){:.no-push-state},  
+- [Office Hours Sign Up]({{ site.baseurl }}/404/){:.no-push-state},  
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state},  
