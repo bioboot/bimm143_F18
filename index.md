@@ -54,7 +54,7 @@ A detailed [syllabus]({{ site.baseurl }}/class-material/BIMM143_S18_syllabus.pdf
 
 ## Surveys:
 Please help us improve this course by completing by completing these surveys before and after the course. Thank you!
-* [Pre-course questionnaire](https://goo.gl/forms/BPWFRDYw2zIXEYGc2)  
+* [Pre-course questionnaire](https://goo.gl/forms/bSYYSXzxW7Pb0Qz73)  
 * [Post-course questionnaire]({{ site.baseurl }}/404/)  
 
 ## Acknowledgments:

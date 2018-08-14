@@ -66,7 +66,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Understand course scope, expectations, logistics and [ethics code]({{ site.baseurl }}/ethics/).  
 - Understand the increasing necessity for computation in modern life sciences research.  
 - Get introduced to how bioinformatics is practiced.  
-- Complete the [pre-course questionnaire](https://goo.gl/forms/rWyTVa23zFClw1qq1).  
+- Complete the [pre-course questionnaire](https://goo.gl/forms/bSYYSXzxW7Pb0Qz73).  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
 - The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst actively investigating the molecular basis of several common human disease.
 
@@ -76,9 +76,9 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state},      
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture1-BIMM143_S18.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://docs.google.com/forms/d/e/1FAIpQLSe9ntawURWzndzrCtlgSnLasA-0vc1ZUUpPAXsDi6r7n-EZKw/viewform){:.no-push-state},    
-- Feedback: [Responses](https://docs.google.com/forms/d/1Lb4BEX5zN5H7SidBSEkjbeZ4LOB2Hm3sVXqq9-Ok2OQ/viewanalytics){:.no-push-state}.  
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/1Lb4BEX5zN5H7SidBSEkjbeZ4LOB2Hm3sVXqq9-Ok2OQ/viewanalytics){:.no-push-state}. --> 
 
-- Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_S18_syllabus.pdf){:.no-push-state}  
+- Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BIMM143_F18_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
