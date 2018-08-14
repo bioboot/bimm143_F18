@@ -12,10 +12,10 @@ barry:
     : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: <bjgrant@ucsd.edu>)
 
     Instructional Assistant
-    : Alena Martsul (Email: <amartsul@ucsd.edu>)  
+    : Chao Shi (Email: <bioshichao@gmail.com>)  
 
     Course Syllabus
-    : [Spring 2018 (PDF)](https://bioboot.github.io/bimm143_S18/class-material/BIMM143_S18_syllabus.pdf){:.no-push-state}
+    : [Fall 2018 (PDF)](https://bioboot.github.io/bimm143_F18/class-material/BIMM143_F18_syllabus.pdf){:.no-push-state}
     {:.message}
 
 #    : [Ileena Mitra](https://bioboot.github.io/bggn213_f17/ileenamitra@eng.ucsd.edu) (Email: <ileenamitra@eng.ucsd.edu>)
@@ -26,7 +26,8 @@ barry:
 
   # This photo will be used in the about section
   picture:
-    src:             /bimm143_S18/assets/img/logo.png
+ ##   src:             /bimm143_S18/assets/img/logo.png
+    src:             '{{ site.baseurl }}/assets/img/logo.png'
     # srcset is optional, but can be used to provide higher res versions for retina displays
     #srcset:
     #  1x:            https://placehold.it/128x128
