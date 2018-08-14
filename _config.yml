@@ -43,8 +43,8 @@ author:
   email:             bjgrant@ucsd.edu
 
 # Fallback image and color (note you can have a page specific sidebar image and color from yml)
-##-image:               /bimm143_S18/assets/img/dna.jpg
-image:               '{{ site.baseurl }}/assets/img/dna.jpg'
+image:               /bimm143_F18/assets/img/dna.jpg
+##-image:               '{{ site.baseurl }}/assets/img/dna.jpg'
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
