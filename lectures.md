@@ -132,15 +132,15 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - The goals of the hands-on session are to explore the principles underlying the computational tools that can be used to compute and evaluate sequence alignments. 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143_S18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143_S18-small.pdf){:.no-push-state},    
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-small.pdf){:.no-push-state},    
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}  
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BIMM143_S18-lab.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://goo.gl/forms/YruIToqhi72h89vS2){:.no-push-state}.   
-- Feedback: [Results](https://docs.google.com/forms/d/1KvSiFj7j-8dpQ3AwfBIFB4fJyKk6gjtU_4ZMd3i90Qw/viewanalytics){:.no-push-state}.  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BIMM143_F18-lab.pdf){:.no-push-state}  
+- Feedback: [Muddy Point Assessment](https://goo.gl/forms/rB1eOCK1qhwAVjwL2){:.no-push-state}.   
+<!-- - Feedback: [Results](https://docs.google.com/forms/d/1KvSiFj7j-8dpQ3AwfBIFB4fJyKk6gjtU_4ZMd3i90Qw/viewanalytics){:.no-push-state}. -->    
 
 
 **Homework**:   
-- [Quiz Questions](https://goo.gl/forms/eONDK0JiPO9AE1VJ2){:.no-push-state},  
+- [Quiz Questions](https://goo.gl/forms/m9e0EZgVvuKPQjEI3){:.no-push-state},  
 - [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-BIMM134_homework.pdf){:.no-push-state},  
 
 
