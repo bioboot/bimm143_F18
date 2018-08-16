@@ -174,7 +174,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 
 **Homework**:   
-- [DataCamp Sign Up!](https://www.datacamp.com/enterprise/introduction-to-bioinformatics-s18){:.no-push-state},  
+- [DataCamp Sign Up: see your UCSD email invite!](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/){:.no-push-state},  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
 
