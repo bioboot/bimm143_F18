@@ -40,7 +40,7 @@ Lectures are on Tuesday and Thursday at 9:00 - 12:00 pm in Warren Lecture Hall 2
 All announcements regarding the course will be by email to your UCSD address.  
 
 ## Office hours & location:  
-Alena (Email: <amartsul@ucsd.edu>) will hold office hours in the Muir Biology building Rm. 3266. Please sign up for your [preferred time](https://doodle.com/poll/ufndcggf7ehv2pge){:.no-push-state}.    
+Chao (Email: <bioshichao@gmail.com>) will hold office hours in Bonner Hall, Rm. 2140. Please sign up for your [preferred time](https://doodle.com/poll/pemmrpf49qygin26){:.no-push-state}.    
 
 From week 3 onward Barry will hold an additional informal office hour from 12-1pm at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}.  
 
@@ -50,7 +50,7 @@ If you can't make either of these please email for a time and we will make it ha
 There is no textbook for the course. Lecture notes, homework assignments, grading criteria, pre-class screen casts and required reading material will be available from this public facing course website.  
 
 ## Syllabus:  
-A detailed [syllabus]({{ site.baseurl }}/class-material/BIMM143_S18_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
+A detailed [syllabus]({{ site.baseurl }}/class-material/BIMM143_F18_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
 
 ## Surveys:
 Please help us improve this course by completing by completing these surveys before and after the course. Thank you!

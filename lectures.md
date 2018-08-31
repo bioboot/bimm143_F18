@@ -82,8 +82,8 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
-- [Questions](https://goo.gl/forms/LH6cwf4NqqiNwGoE3){:.no-push-state},  
-- [Office Hours Sign Up]({{ site.baseurl }}/404/){:.no-push-state},  
+- [Questions](https://goo.gl/forms/tS94rrJNvoqPsJKE2){:.no-push-state},  
+- [Office Hours Sign Up](https://doodle.com/poll/pemmrpf49qygin26){:.no-push-state},  
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state},  
@@ -140,7 +140,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 
 **Homework**:   
-- [Quiz Questions](https://goo.gl/forms/m9e0EZgVvuKPQjEI3){:.no-push-state},  
+- [Quiz Questions](https://goo.gl/forms/0a6IL2nS7ifxd1nA2){:.no-push-state},  
 - [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-BIMM134_homework.pdf){:.no-push-state},  
 
 
