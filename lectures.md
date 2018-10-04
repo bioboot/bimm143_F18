@@ -168,8 +168,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
  - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-small.pdf){:.no-push-state},    
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BIMM143_S18-lab.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/aHSx1kspL2Qg1ytq1){:.no-push-state}.   
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSdCuxK-O23Q31HdX1w0Bt7qM-6td8usRuVK1_8DkOBGDMI5GA/viewanalytics){:.no-push-state}.  
-
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSdCuxK-O23Q31HdX1w0Bt7qM-6td8usRuVK1_8DkOBGDMI5GA/viewanalytics){:.no-push-state}.  
+-->
 
 
 **Homework**:   
@@ -195,8 +195,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section 1]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/FGy3xjaIaKot573v2){:.no-push-state},  
-- Feedback: [Responses](https://docs.google.com/forms/d/1cvALp8g0nLdk8zhdb97NB27uWRZdXNOUA6pMC5GXsWo/viewanalytics){:.no-push-state}.  
-
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/1cvALp8g0nLdk8zhdb97NB27uWRZdXNOUA6pMC5GXsWo/viewanalytics){:.no-push-state}.  
+-->
  
 **Homework**:   
 - [DataCamp Assignments!](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.    
@@ -224,8 +224,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state},  
 - Example data for hands-on sections [bimm143_05_rstats.zip]({{ site.baseurl }}/class-material/bimm143_05_rstats.zip){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/zi8wR5SIh3RRLZSk2){:.no-push-state},  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSdWlHtEtvO03iK8H_CNjSzvgGrqkkSr4GyCVpE1xNz0KvyBww/viewanalytics){:.no-push-state}.  
-
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSdWlHtEtvO03iK8H_CNjSzvgGrqkkSr4GyCVpE1xNz0KvyBww/viewanalytics){:.no-push-state}.  
+-->
  
  
 **Homework**:   
@@ -252,7 +252,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BIMM143_S18_lab.pdf){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/i5FWaVxlwb4Vxyim1){:.no-push-state},  
-- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}.   
+<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}.   
+-->
 
 
 **Homework**:   
@@ -383,8 +384,8 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BIMM143_S18.pdf){:.no-push-state}  
 - Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state},  
 - **OPTIONAL**: Bio3D development version for [mac]({{ site.baseurl }}/class-material/bio3d_2.3-4.9-mac.tgz){:.no-push-state} and [windows]({{ site.baseurl }}/class-material/bio3d_2.3-4.9000.zip){:.no-push-state},    
-- Feedback: [Muddy point assessment](https://goo.gl/forms/NpFkln0gzxbULi6F3){:.no-push-state}.  
-
+<!-- - Feedback: [Muddy point assessment](https://goo.gl/forms/NpFkln0gzxbULi6F3){:.no-push-state}.  
+-->
 
 
 
