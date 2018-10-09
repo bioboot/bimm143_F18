@@ -195,8 +195,6 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section 1]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/FGy3xjaIaKot573v2){:.no-push-state},  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/1cvALp8g0nLdk8zhdb97NB27uWRZdXNOUA6pMC5GXsWo/viewanalytics){:.no-push-state}.  
--->
  
 **Homework**:   
 - [DataCamp Assignments!](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.    
@@ -224,8 +222,6 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state},  
 - Example data for hands-on sections [bimm143_05_rstats.zip]({{ site.baseurl }}/class-material/bimm143_05_rstats.zip){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/zi8wR5SIh3RRLZSk2){:.no-push-state},  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSdWlHtEtvO03iK8H_CNjSzvgGrqkkSr4GyCVpE1xNz0KvyBww/viewanalytics){:.no-push-state}.  
--->
  
  
 **Homework**:   
@@ -252,8 +248,6 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture6-BIMM143_S18_lab.pdf){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/i5FWaVxlwb4Vxyim1){:.no-push-state},  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSez4_tN42yBa-C3_W7UudnHDoO1dZsK7aYrXo5fYJq5KDKRmg/viewanalytics){:.no-push-state}.   
--->
 
 
 **Homework**:   
@@ -280,7 +274,6 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1kXO8Z0kYPOois6AixmAu3HVcbUEWKU2KfyZjLdk9C3w/edit?usp=sharing){:.no-push-state},    
 - [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/N35hmj7uCYgnHMwA3){:.no-push-state}.      
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSdNCskxDwYc4_atlBezrOd6DZkxGeX6qVqENChmA3O107YaJw/viewanalytics){:.no-push-state}.  -->
 - SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}.   
  
  
@@ -316,7 +309,6 @@ Practical considerations and best practices for the analysis of high dimensional
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
 - [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
 - Feedback: [Muddy point assessment](https://goo.gl/forms/fZxU1Mhp50Ewk1IG2){:.no-push-state}.  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd1UoERB-ADt_mUsWAnR50GDqV4BGm6cMvWUNH6fymwDRUvcg/viewanalytics){:.no-push-state}. -->       
 
  
 
@@ -338,7 +330,6 @@ Practical considerations and best practices for the analysis of high dimensional
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lecture9_lab/){:.no-push-state}  
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}.   
 - Bio3D PCA App: [http://bio3d.ucsd.edu/pca-app/](http://bio3d.ucsd.edu/pca-app/){:.no-push-state}.   
-<!-- - Feedback: [Muddy point assessment](https://goo.gl/forms/VY9Dub02zktyCE9X2){:.no-push-state}. -->  
 
 
 <hr>
@@ -384,8 +375,6 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BIMM143_S18.pdf){:.no-push-state}  
 - Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state},  
 - **OPTIONAL**: Bio3D development version for [mac]({{ site.baseurl }}/class-material/bio3d_2.3-4.9-mac.tgz){:.no-push-state} and [windows]({{ site.baseurl }}/class-material/bio3d_2.3-4.9000.zip){:.no-push-state},    
-<!-- - Feedback: [Muddy point assessment](https://goo.gl/forms/NpFkln0gzxbULi6F3){:.no-push-state}.  
--->
 
 
 
@@ -410,7 +399,6 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Software download links: [AutoDock Tools](http://mgltools.scripps.edu/downloads){:.no-push-state},  [AutoDock Vina](http://vina.scripps.edu/download.html){:.no-push-state},  [VMD](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}  
 - Optional backup files: [1]({{ site.baseurl }}/class-material/config.txt){:.no-push-state}, [2]({{ site.baseurl }}/class-material/1hsg_protein.pdbqt){:.no-push-state}, [3]({{ site.baseurl }}/class-material/indinavir.pdbqt){:.no-push-state}, [log.txt]({{ site.baseurl }}/class-material/log.txt){:.no-push-state}, [all.pdbqt]({{ site.baseurl }}/class-material/all.pdbqt){:.no-push-state}  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/u5cPkBag5lBhgew42){:.no-push-state}  
-<!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSd5-3_tu5m81Pkt1wyZSAK0wWMqRD3Hs0GttVyKh9Fa2Nkpag/viewanalytics){:.no-push-state}. -->
 
 
 <hr>
