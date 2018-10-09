@@ -135,7 +135,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BIMM143_F18-lab.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/rB1eOCK1qhwAVjwL2){:.no-push-state}.   
-<!-- - Feedback: [Results](https://docs.google.com/forms/d/1KvSiFj7j-8dpQ3AwfBIFB4fJyKk6gjtU_4ZMd3i90Qw/viewanalytics){:.no-push-state}. -->    
+- Feedback: [Results](https://docs.google.com/forms/d/e/1FAIpQLSfC84Hx43GAInuPaIF0kQJzj9pHqKJybZAzAGEasCu7lnIcSg/viewanalytics){:.no-push-state}.     
 
 
 **Homework**:   
@@ -166,8 +166,8 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 **Material**:   
  
  - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-small.pdf){:.no-push-state},    
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BIMM143_S18-lab.pdf){:.no-push-state}  
-- Feedback: [Muddy Point Assessment](https://goo.gl/forms/aHSx1kspL2Qg1ytq1){:.no-push-state}.   
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3_BIMM143_F18-lab.pdf){:.no-push-state}  
+- Feedback: [Muddy Point Assessment](https://goo.gl/forms/rgIo0DmNZlaioSdm1){:.no-push-state}.   
 <!-- - Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSdCuxK-O23Q31HdX1w0Bt7qM-6td8usRuVK1_8DkOBGDMI5GA/viewanalytics){:.no-push-state}.  
 -->
 
