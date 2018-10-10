@@ -194,7 +194,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section 1]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/FGy3xjaIaKot573v2){:.no-push-state},  
+- Feedback: [Muddy point assessment](https://goo.gl/forms/d23JGkVJyr0EcpTg2){:.no-push-state},  
  
 **Homework**:   
 - [DataCamp Assignments!](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.    
