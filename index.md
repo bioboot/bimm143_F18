@@ -42,7 +42,7 @@ All announcements regarding the course will be by email to your UCSD address.
 ## Office hours & location:  
 Chao (Email: <bioshichao@gmail.com>) will hold office hours in Bonner Hall, Rm. 2140 on Wednesdays 2:00 - 3:00 pm.    
 
-From week 3 onward Barry will hold an additional office hour from 12-1pm on Thursdays after class in Warren Lecture Hall 2015 or, weather permitting, at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}.  
+From week 3 onward Barry will hold an additional office hour from 12:00 -1:00 pm on Thursdays after class in Warren Lecture Hall 2015 or, weather permitting, at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}.  
 
 If you can't make either of these please email for a time and we will make it happen. Note that is often a good idea to email so we know to expect you.    
 
