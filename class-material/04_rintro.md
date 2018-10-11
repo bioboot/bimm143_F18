@@ -208,7 +208,7 @@ example(log)
     ##  [8,] 1e-17 0.000000e+00 1.000000e-17 0.000000e+00 1.000000e-17
     ##  [9,] 1e-19 0.000000e+00 1.000000e-19 0.000000e+00 1.000000e-19
 
-R also has functions for listing all functions in a package (e.g., `library(help="base")`) and finding functions by name (e.g., `apropos(norm)`), which are often useful in remembering a function’s name.
+R also has functions for listing all functions in a package (e.g., `library(help="base")`) and finding functions by name (e.g., `apropos("norm")`), which are often useful in remembering a function’s name.
 
 Later today we will cover a special form of package documentation called **vignettes**. These are basically short task oriented introductions and tutorials for a particular set of related functions.
 
