@@ -135,7 +135,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BIMM143_F18-lab.pdf){:.no-push-state}  
 - Feedback: [Muddy Point Assessment](https://goo.gl/forms/rB1eOCK1qhwAVjwL2){:.no-push-state}.   
-- Feedback: [Results](https://docs.google.com/forms/d/e/1FAIpQLSfC84Hx43GAInuPaIF0kQJzj9pHqKJybZAzAGEasCu7lnIcSg/viewanalytics){:.no-push-state}.     
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSfC84Hx43GAInuPaIF0kQJzj9pHqKJybZAzAGEasCu7lnIcSg/viewanalytics){:.no-push-state}.     
 
 
 **Homework**:   
@@ -195,9 +195,11 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section 1]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/d23JGkVJyr0EcpTg2){:.no-push-state},  
- 
+- Feedback: [Responses](https://docs.google.com/forms/d/e/1FAIpQLSe9BUrwENHY3YNiEb-K6eQd8wxqAQ82e7XKCcrlF3ntj9OVZw/viewanalytics){:.no-push-state}.  
+
+
 **Homework**:   
-- [DataCamp Assignments!](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.    
+- [DataCamp Signup!](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.    
 
 
 
@@ -219,9 +221,10 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-small.pdf){:.no-push-state},  
 - Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/05_draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/05_draw_lecture_plots2/){:.no-push-state},  
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state},  
+- Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/lecture5_lab_web/){:.no-push-state}, 
+- Lab: [PDF suplement]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state}, 
 - Example data for hands-on sections [bimm143_05_rstats.zip]({{ site.baseurl }}/class-material/bimm143_05_rstats.zip){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/zi8wR5SIh3RRLZSk2){:.no-push-state},  
+- Feedback: [Muddy point assessment](https://goo.gl/forms/fYiwVbi7XsMKKGSS2){:.no-push-state},  
  
  
 **Homework**:   
