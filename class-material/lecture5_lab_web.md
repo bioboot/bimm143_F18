@@ -1,23 +1,7 @@
 ---
+layout: page
 title: "Data exploration and visualization in R"
-author: "Barry Grant"
-date: "10/12/2018"
-output:
-    html_document:
-        keep_md: true
-        theme: cosmo
-        highlight: pygments
-        toc: true
-        toc_float: true
-        toc_depth: 2
-        number_sections: false
-        df_print: paged
-        code_folding: hide
 ---
-
-
-
-
 
 **BIMM-143 Lecture 5:**  
 Barry Grant &lt; <http://thegrantlab.org> &gt;  
@@ -361,12 +345,15 @@ plot(meth$promoter.meth, meth$gene.meth,
 
 ![]({{ site.baseurl }}/class-material/lecture5_lab_web_files/figure-html/unnamed-chunk-14-1.png)<!-- -->
 
+
 # Section 5: Detailed guide
 
 A detailed guide to plotting with base R is provided as a [PDF suplement](https://bioboot.github.io/bimm143_F18/class-material/lecture5-BIMM143_lab.pdf) that you can use as a reference whenever you need to plot data with base R. From **Page 7** onward it goes into more details and covers more plot types than we could in today's hands-on session.
 
+
 # Muddy Point Assesment
 Link to todays [muddy point assesment](https://goo.gl/forms/zi8wR5SIh3RRLZSk2).
+
 
 # Session Info
 
