@@ -221,7 +221,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-small.pdf){:.no-push-state},  
 - Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/05_draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/05_draw_lecture_plots2/){:.no-push-state},  
-- Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/lecture5_lab_web/){:.no-push-state}, 
+- Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/lecture5_lab_web.html){:.no-push-state}, 
 - Lab: [PDF suplement]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state}, 
 - Example data for hands-on sections [bimm143_05_rstats.zip]({{ site.baseurl }}/class-material/bimm143_05_rstats.zip){:.no-push-state},  
 - Feedback: [Muddy point assessment](https://goo.gl/forms/fYiwVbi7XsMKKGSS2){:.no-push-state},  
