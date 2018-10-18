@@ -254,7 +254,7 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 
 **Homework**:   
-- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_F18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
+- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_F18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 10/25**).    
 - The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.   
  
 
