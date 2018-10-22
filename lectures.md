@@ -274,14 +274,14 @@ Detecting remote sequence similarity, Database searching beyond BLAST, PSI-BLAST
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-small.pdf){:.no-push-state},  
-- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1kXO8Z0kYPOois6AixmAu3HVcbUEWKU2KfyZjLdk9C3w/edit?usp=sharing){:.no-push-state},    
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1CDncv0mPBHoXpkQds0lD40sX32vM9EE_P01AG2MwzKo/edit?usp=sharing){:.no-push-state},    
 - [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/N35hmj7uCYgnHMwA3){:.no-push-state}.      
+- Feedback: [Muddy point assessment](https://goo.gl/forms/wBXLNFE4iKMn1wv92){:.no-push-state}.      
 - SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}.   
  
  
 **Homework**:   
- See **Q6** from the last days [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_S18_lab.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
+ See **Q6** from the last days [hands-on lab sheet above]({{ site.baseurl }}/class-material/lecture6-BIMM143_F18.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **Th, 05/08**).    
 - The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.   
  
 
