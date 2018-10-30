@@ -330,7 +330,7 @@ Practical considerations and best practices for the analysis of high dimensional
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lecture9_lab/){:.no-push-state}  
+- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lecture9_lab.html){:.no-push-state}  
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.     
 - Bio3D PCA App: [http://bio3d.ucsd.edu/pca-app/](http://bio3d.ucsd.edu/pca-app/){:.no-push-state}.   
 - Feedback: [Muddy point assessment](https://goo.gl/forms/1dkWdpJ4BNgtGHsR2){:.no-push-state}.   
