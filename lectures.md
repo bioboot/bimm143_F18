@@ -378,9 +378,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143-small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BIMM143_S18.pdf){:.no-push-state}  
+- Lab: [Hands-on section worksheet for VMD and Bio3D]({{ site.baseurl }}/class-material/lecture11-BIMM143_F18.pdf){:.no-push-state}  
 - Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state},  
-- **OPTIONAL**: Bio3D development version for [mac]({{ site.baseurl }}/class-material/bio3d_2.3-4.9-mac.tgz){:.no-push-state} and [windows]({{ site.baseurl }}/class-material/bio3d_2.3-4.9000.zip){:.no-push-state},    
+- Feedback: [Muddy point assessment](https://goo.gl/forms/5eM3qYOhc2trBdUZ2){:.no-push-state}.   
 
 
 
