@@ -390,21 +390,22 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 <br>
 
 ## 12: Bioinformatics in drug discovery and design 
-**Topics**: The traditional path to drug discovery; High throughput screening  approaches; Computational receptor/target-based bioinformatics approaches; Computational ligand/drug-based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular motion, conformational variants and functional dynamics; Molecular simulation and drug optimization. 
+**Topics**: The traditional path to drug discovery; High throughput screening  approaches; Computational receptor/target-based bioinformatics approaches; Computational ligand/drug-based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular complexes and drug optimization. 
 
 **Goals**:    
 - Appreciate how bioinformatics can predict functional dynamics & aid drug discovery,  
-- Be able to use Bio3D and R for the analysis and prediction of protein flexibility,
+- Be able to use Maestro for biomolecular visualization and analysis,
 - Be able to perform *In silico* docking and virtual screening strategies for drug discovery,
 - Understand the increasing role of bioinformatics in the drug discovery process.  
 
 
 **Material**:   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture12-BIMM143_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture12-BIMM143_small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet for *In silico* drug docking]({{ site.baseurl }}/class-material/lecture12-BIMM143.pdf){:.no-push-state}  
-- Software download links: [AutoDock Tools](http://mgltools.scripps.edu/downloads){:.no-push-state},  [AutoDock Vina](http://vina.scripps.edu/download.html){:.no-push-state},  [VMD](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}  
-- Optional backup files: [1]({{ site.baseurl }}/class-material/config.txt){:.no-push-state}, [2]({{ site.baseurl }}/class-material/1hsg_protein.pdbqt){:.no-push-state}, [3]({{ site.baseurl }}/class-material/indinavir.pdbqt){:.no-push-state}, [log.txt]({{ site.baseurl }}/class-material/log.txt){:.no-push-state}, [all.pdbqt]({{ site.baseurl }}/class-material/all.pdbqt){:.no-push-state}  
-- Feedback: [Muddy point assessment](https://goo.gl/forms/u5cPkBag5lBhgew42){:.no-push-state}  
+- Pre-Class Survey: [Form One](https://goo.gl/forms/yy2lTwaBWNb7m9BY2){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/Glide_VirtualScreening-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/Glide_VirtualScreening-small.pdf){:.no-push-state},  
+- Lab: [Hands-on section worksheet for *In silico* drug docking]({{ site.baseurl }}/class-material/Visualization_Preparation_wHW.pdf){:.no-push-state},  
+- Feedback: [Muddy point assessment](https://goo.gl/forms/mRd80EGeyXokyASg1){:.no-push-state},  
+- Post-Class Survey: Form Two.  
+
 
 
 <hr>
