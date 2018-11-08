@@ -401,7 +401,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 **Material**:   
 - Software Download: [Schrödinger Discovery Suite](https://www.schrodinger.com/downloads/releases){:.no-push-state},  
-- Software Product Key: **f4191b5b-56da-4a78-ad2d-0121e94c1827**  
+- Software Product Key: **f4191b5b-56da-4a78-ad2d-0121e94c1827**   
 - Pre-Class Survey: [Form One](https://goo.gl/forms/yy2lTwaBWNb7m9BY2){:.no-push-state},  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/Glide_VirtualScreening-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/Glide_VirtualScreening-small.pdf){:.no-push-state},  
 - Lab: [Hands-on section worksheet for *In silico* drug docking]({{ site.baseurl }}/class-material/Visualization_Preparation_wHW.pdf){:.no-push-state},  
