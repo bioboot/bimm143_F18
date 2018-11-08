@@ -409,6 +409,11 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Post-Class Survey: Form Two.  
 
 
+**VMs**:  
+- URL: [http://ucsdnov8.tsg.schrodinger.com](http://ucsdnov8.tsg.schrodinger.com){:.no-push-state},
+- Login Deatails: [Username and passwords]({{ site.baseurl }}/class-material/Workshop-User-Accounts.pdf){:.no-push-state}.  
+
+
 
 <hr>
 <a name="13"></a>
