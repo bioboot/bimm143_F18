@@ -393,7 +393,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Topics**: The traditional path to drug discovery; High throughput screening  approaches; Computational receptor/target-based bioinformatics approaches; Computational ligand/drug-based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular complexes and drug optimization. 
 
 **Goals**:    
-- Appreciate how bioinformatics can predict functional dynamics & aid drug discovery,  
+- Appreciate how bioinformatics can aid drug discovery,  
 - Be able to use Maestro for biomolecular visualization and analysis,
 - Be able to perform *In silico* docking and virtual screening strategies for drug discovery,
 - Understand the increasing role of bioinformatics in the drug discovery process.  
@@ -414,12 +414,35 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Login Deatails: [Username and passwords]({{ site.baseurl }}/class-material/Workshop-User-Accounts.pdf){:.no-push-state}.  
 
 
-
 <hr>
 <a name="13"></a>
 <br>
 
-## 13: Genome informatics and high throughput sequencing (Part 1) 
+## 13: Structural Bioinformatics II 
+**Topics**: Revisiting bioinformatics approaches to drug discovery. Computational high throughput screening ; Receptor/target-based bioinformatics approaches; Computational ligand/drug-based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular motion, conformational variants and functional dynamics; Molecular simulation and drug optimization.
+
+**Goals**:    
+- Appreciate how bioinformatics can predict functional dynamics & further aid drug discovery,  
+- Be able to apply open-source *In silico* docking and virtual screening strategies for drug discovery,
+- Be able to use Bio3D for the analysis and prediction of protein flexibility,
+- Understand the increasing role of bioinformatics in pharma and the drug discovery process in particular.  
+
+
+**Material**:   
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture12B-BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture12B-BIMM143-small.pdf){:.no-push-state},
+- Lab: [Hands-on section worksheet for *In silico* drug docking]({{ site.baseurl }}/class-material/lecture12B-BIMM143.pdf){:.no-push-state}
+- Software download links: [AutoDock Tools](http://mgltools.scripps.edu/downloads){:.no-push-state},  [AutoDock Vina](http://vina.scripps.edu/download.html){:.no-push-state},  [VMD](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}
+- Optional backup files: [config.txt]({{ site.baseurl }}/class-material/config.txt){:.no-push-state}, [1hsg_protein.pdbqt]({{ site.baseurl }}/class-material/1hsg_protein.pdbqt){:.no-push-state}, [ligand.pdbqt]({{ site.baseurl }}/class-material/ligand.pdbqt){:.no-push-state}, [log.txt]({{ site.baseurl }}/class-material/log.txt){:.no-push-state}, [all.pdbqt]({{ site.baseurl }}/class-material/all.pdbqt){:.no-push-state}
+- Feedback: [Muddy point assessment](https://goo.gl/forms/pFcCQlDVzIClxI8R2){:.no-push-state}.  
+
+
+
+
+<hr>
+<a name="14"></a>
+<br>
+
+## 14: Genome informatics and high throughput sequencing (Part 1) 
 **Topics**: Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2
 
 **Goals**: 
@@ -463,10 +486,10 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 
 <hr>
-<a name="14"></a>
+<a name="15"></a>
 <br>
 
-## 14: Transcriptomics and the analysis of RNA-Seq data
+## 15: Transcriptomics and the analysis of RNA-Seq data
 **Topics**: Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs, Normalizing for sequencing depth, DESeq2 analysis.
 
 **Goals**:
@@ -492,11 +515,11 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 
 <hr>
-<a name="15"></a>
+<a name="16"></a>
 <br>
 
 
-## 15: Genome annotation and the interpretation of gene lists 
+## 16: Genome annotation and the interpretation of gene lists 
 **Topics**: Gene finding and functional annotation from high throughput sequencing data, Functional databases KEGG, InterPro, GO ontologies and functional enrichment
 
 **Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
@@ -517,18 +540,6 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
   
   
 
-
-<hr>
-<a name="16"></a>
-<br>
-
-## 16: Project workflow with Alena
-An example of a complete bioinformatics workflow for transposon insertion followed by sequencing to study interactions between genes.
-
-**Material**:   
-- Lecture Slides: [PDF]({{ site.baseurl }}/class-material/BIMM143_Lecture16-large.pdf){:.no-push-state}.  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/TnSeq_practice_section.html){:.no-push-state}.  
-- Data files: [Experimental_results.csv]({{ site.baseurl }}/class-material/Experimental_results.csv){:.no-push-state}.
 
 
 

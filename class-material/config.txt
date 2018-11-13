@@ -1,6 +1,6 @@
 receptor = 1hsg_protein.pdbqt
 
-ligand = indinavir.pdbqt
+ligand = ligand.pdbqt
 
 num_modes = 50
 
