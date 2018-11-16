@@ -6,7 +6,7 @@ title: BIMM-143, Lecture 15
 ## Transcriptomics and the analysis of RNA-Seq data
 
 
-**BIMM-143 Lecture 14:**  
+**BIMM-143 Lecture 15:**  
 Barry Grant &lt; <http://thegrantlab.org> &gt;  
 2018-11-15   (20:39:14 PST on Thu, Nov 15)  
 {:.message}
