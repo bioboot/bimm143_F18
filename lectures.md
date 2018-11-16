@@ -489,7 +489,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - 129.114.16.210  
 - 129.114.16.214 (DB)    
 - 129.114.16.226  
-- to be updated (23)
+
 
 
 <hr>
@@ -506,9 +506,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Be able to extract, explore, visualize and export results.
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143_W18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143_W18-small.pdf){:.no-push-state}.
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143_F18-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture15_BIMM143_F18-small.pdf){:.no-push-state}.
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state} instructions.
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab/){:.no-push-state}
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture15-BIMM143_F18-lab/){:.no-push-state}
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.
 - Muddy point assessment
 
