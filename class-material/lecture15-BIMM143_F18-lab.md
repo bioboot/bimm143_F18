@@ -11,7 +11,7 @@ Barry Grant &lt; <http://thegrantlab.org> &gt;
 2018-11-15   (20:39:14 PST on Thu, Nov 15)  
 {:.message}
 
-Overiview
+Overview
 --------------------------------
 
 The data for this hands-on session comes from a published RNA-seq experiment where airway smooth muscle cells were treated with [dexamethasone](https://en.wikipedia.org/wiki/Dexamethasone), a synthetic glucocorticoid steroid with anti-inflammatory effects ([Himes et al. 2014](http://www.ncbi.nlm.nih.gov/pubmed/24926665)).
@@ -20,7 +20,7 @@ Glucocorticoids are used, for example, by people with asthma to reduce inflammat
 
 Himes et al. used RNA-seq to profile gene expression changes in four different ASM cell lines treated with dexamethasone glucocorticoid. They found a number of differentially expressed genes comparing dexamethasone-treated to control cells, but focus much of the discussion on a gene called CRISPLD2. This gene encodes a secreted protein known to be involved in lung development, and SNPs in this gene in previous GWAS studies are associated with inhaled corticosteroid resistance and bronchodilator response in asthma patients. They confirmed the upregulated CRISPLD2 mRNA expression with qPCR and increased protein expression using Western blotting.
 
-In the experiment, four primary human ASM cell lines were treated with 1 micromolar dexamethasone for 18 hours. For each of the four cell lines, we have a treated and an untreated sample. They did their analysis using **Tophat** and **Cufflinks** similar to our Lecture 15 hands-on session. For a more detailed description of their analysis see the [PubMed entry 24926665](http://www.ncbi.nlm.nih.gov/pubmed/24926665) and for raw data see the [GEO entry GSE52778](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52778).
+In the experiment, four primary human ASM cell lines were treated with 1 micromolar dexamethasone for 18 hours. For each of the four cell lines, we have a treated and an untreated sample. They did their analysis using **Tophat** and **Cufflinks** similar to our hands-on session from the last class. For a more detailed description of their analysis see the [PubMed entry 24926665](http://www.ncbi.nlm.nih.gov/pubmed/24926665) and for raw data see the [GEO entry GSE52778](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52778).
 
 In this session we will read and explore the gene expression data from this experiment using base R functions and then perform a detailed analysis with the **DESeq2** package from [Bioconductor](http://www.bioconductor.org).
 
@@ -43,11 +43,11 @@ The entire install process can take some time as there are many packages with de
 
 ### Side-note: Aligning reads to a reference genome
 
-The computational analysis of an RNA-seq experiment begins from the [FASTQ files](https://en.wikipedia.org/wiki/FASTQ_format) that contain the nucleotide sequence of each read and a quality score at each position. These reads must first be aligned to a reference genome or transcriptome. The output of this alignment step is commonly stored in a file format called [SAM/BAM](https://bioboot.github.io/bimm143_W18/class-material/sam_format/). This is the workflow we followed last day.
+The computational analysis of an RNA-seq experiment begins from the [FASTQ files](https://en.wikipedia.org/wiki/FASTQ_format) that contain the nucleotide sequence of each read and a quality score at each position. These reads must first be aligned to a reference genome or transcriptome. The output of this alignment step is commonly stored in a file format called [SAM/BAM](https://bioboot.github.io/bimm143_W18/class-material/sam_format/). This is the work-flow we followed last day.
 
 Once the reads have been aligned, there are a number of tools that can be used to count the number of reads/fragments that can be assigned to genomic features for each sample. These often take as input SAM/BAM alignment files and a file specifying the genomic features, e.g. a GFF3 or GTF file specifying the gene models as obtained from ENSEMBLE or UCSC.
 
-In the workflow we’ll use here, the abundance of each transcript was quantified using **kallisto** ([software](https://pachterlab.github.io/kallisto/about), [paper](http://www.nature.com/nbt/journal/v34/n5/full/nbt.3519.html)) and transcript-level abundance estimates were then summarized to the gene level to produce length-scaled counts using the R package **txImport** ([software](https://bioconductor.org/packages/tximport), [paper](https://f1000research.com/articles/4-1521/v2)), suitable for using in count-based analysis tools like DESeq. This is the starting point - a "count matrix", where each cell indicates the number of reads mapping to a particular gene (in rows) for each sample (in columns). This is where we left off last day when analyzing our 1000 genome data.
+In the work-flow we’ll use here, the abundance of each transcript was quantified using **kallisto** ([software](https://pachterlab.github.io/kallisto/about), [paper](http://www.nature.com/nbt/journal/v34/n5/full/nbt.3519.html)) and transcript-level abundance estimates were then summarized to the gene level to produce length-scaled counts using the R package **txImport** ([software](https://bioconductor.org/packages/tximport), [paper](https://f1000research.com/articles/4-1521/v2)), suitable for using in count-based analysis tools like DESeq. This is the starting point - a "count matrix", where each cell indicates the number of reads mapping to a particular gene (in rows) for each sample (in columns). This is where we left off last day when analyzing our 1000 genome data.
 
 > **Note**: This is one of several well-established workflows for data pre-processing. The goal here is to provide a reference point to acquire fundamental skills with DESeq2 that will be applicable to other bioinformatics tools and workflows. In this regard, the following resources summarize a number of best practices for RNA-seq data analysis and pre-processing.
 >
@@ -133,9 +133,9 @@ control.mean <- rowSums( counts[ ,control$id] )/4
 names(control.mean) <- counts$ensgene
 ```
 
-> **Q1**. How would you make the above code more robust? What would happen if you were to add more samples. Would the values obtained with the excat code above be correct?
+> **Q1**. How would you make the above code more robust? What would happen if you were to add more samples. Would the values obtained with the exact code above be correct?
 
-> **Q2**. Follow the same procedure for the `treated` samples (i.e. calculate the mean per gene accross drug treated samples and assign to a labeled vector called `treated.mean`)
+> **Q2**. Follow the same procedure for the `treated` samples (i.e. calculate the mean per gene across drug treated samples and assign to a labeled vector called `treated.mean`)
 
 We will combine our meancount data for bookkeeping purposes.
 
@@ -281,7 +281,7 @@ library("AnnotationDbi")
 library("org.Hs.eg.db")
 ```
 
-> **Note**: You may have to install these with the `biocLite("AnnotationDbi")` function etc.
+> **Note**: You may have to install these with the `biocLite("AnnotationDbi")` and `biocLite("org.Hs.eg.db")` function calls.
 
 This is the organism annotation package ("org") for Homo sapiens ("Hs"), organized as an AnnotationDbi database package ("db"), using Entrez Gene IDs ("eg") as primary key. To get a list of all available key types, use:
 
@@ -475,7 +475,7 @@ res
     ## ENSG00000283120        NA
     ## ENSG00000283123        NA
 
-Either click on the `res` object in the environment pane or pass it to `View()` to bring it up in a data viewer. Why do you think so many of the adjusted p-values are missing (`NA`)? Try looking at the `baseMean` column, which tells you the average overall expression of this gene, and how that relates to whether or not the p-value was missing. Go to the [DESeq2 vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.pdf) and read the section about "Independent filtering and multiple testing."
+Either click on the `res` object in the environment pane or pass it to `View()` to bring it up in a data viewer. Why do you think so many of the adjusted p-values are missing (`NA`)? Try looking at the `baseMean` column, which tells you the average overall expression of this gene, and how that relates to whether or not the p-value was missing. Go to the [DESeq2 vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html) (you can also issue the R command `browseVignettes("DESeq2")` to pull this up) and read the section about "Independent filtering and multiple testing."
 
 > **Note**. The goal of independent filtering is to filter out those tests from the procedure that have no, or little chance of showing significant evidence, without even looking at the statistical result. Genes with very low counts are not likely to see significant differences typically due to high dispersion. This results in increased detection power at the same experiment-wide type I error \[*i.e., better FDRs*\].
 
@@ -632,9 +632,9 @@ ggplot(d, aes(dex, count)) + geom_boxplot(aes(fill=dex)) + scale_y_log10() + ggt
 
 Which plot do you prefer? Maybe time to learn ggplot via the DataCamp course ;-)
 
-### MA & Volcano plots
+### Volcano plots
 
-Let's make some other commonly produced visualizations from this data. First, let's add a column called `sig` to our full `res` results that evaluates to TRUE if padj&lt;0.05, and FALSE if not, and NA if padj is also NA.
+Let's make another commonly produced visualization from this data. First, let's add a column called `sig` to our full `res` results that evaluates to TRUE if padj&lt;0.05, and FALSE if not, and NA if padj is also NA.
 
 ``` r
 res$sig <- res$padj<0.05
@@ -653,72 +653,13 @@ sum(is.na(res$sig))
 
     ## [1] 23549
 
-Look up the Wikipedia articles on [MA plots](https://en.wikipedia.org/wiki/MA_plot) and [volcano plots](https://en.wikipedia.org/wiki/Volcano_plot_(statistics)). An MA plot shows the average expression on the X-axis and the log fold change on the y-axis. A volcano plot shows the log fold change on the X-axis, and the −*l**o**g*<sub>10</sub> of the p-value on the Y-axis (the more significant the p-value, the larger the −*l**o**g*<sub>10</sub> of that value will be).
+Look up the Wikipedia articles on [volcano plots](https://en.wikipedia.org/wiki/Volcano_plot_(statistics)). 
 
-    ## Warning: Transformation introduced infinite values in continuous x-axis
-
-    ## Warning: Removed 13436 rows containing missing values (geom_point).
-
-![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/maplot-1.png)
-
-### In built MA-plot
-
-In DESeq2, the function **plotMA()** shows the log2 fold changes attributable to a given variable over the mean of normalized counts for all the samples in the DESeqDataSet. Points will be colored red if the adjusted p value is less than 0.1. Points which fall out of the window are plotted as open triangles pointing either up or down.
+Here we will use ggplot2 to make a volcano plot that is color-coded by whether differential expression of a given gene is significant or not.
 
 ``` r
-plotMA(res, ylim=c(-2,2))
-```
+library(ggplot2)
 
-![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-35-1.png)
-
-It is often more useful to visualize the MA-plot for so-called shrunken log2 fold changes, which remove the noise associated with log2 fold changes from low count genes.
-
-``` r
-resLFC <- lfcShrink(dds, coef=2)
-resLFC
-```
-
-    ## log2 fold change (MAP): dex treated vs control 
-    ## Wald test p-value: dex treated vs control 
-    ## DataFrame with 38694 rows and 6 columns
-    ##                  baseMean log2FoldChange      lfcSE       stat     pvalue
-    ##                 <numeric>      <numeric>  <numeric>  <numeric>  <numeric>
-    ## ENSG00000000003 747.19420    -0.31838595 0.15271739 -2.0846111 0.03710462
-    ## ENSG00000000005   0.00000             NA         NA         NA         NA
-    ## ENSG00000000419 520.13416     0.19883048 0.09744556  2.0403876 0.04131173
-    ## ENSG00000000457 322.66484     0.02280238 0.13491699  0.1690242 0.86577762
-    ## ENSG00000000460  87.68263    -0.11887370 0.20772938 -0.5726216 0.56690095
-    ## ...                   ...            ...        ...        ...        ...
-    ## ENSG00000283115  0.000000             NA         NA         NA         NA
-    ## ENSG00000283116  0.000000             NA         NA         NA         NA
-    ## ENSG00000283119  0.000000             NA         NA         NA         NA
-    ## ENSG00000283120  0.974916    -0.05944174  0.1514839 -0.3944544  0.6932456
-    ## ENSG00000283123  0.000000             NA         NA         NA         NA
-    ##                      padj
-    ##                 <numeric>
-    ## ENSG00000000003 0.1630257
-    ## ENSG00000000005        NA
-    ## ENSG00000000419 0.1757326
-    ## ENSG00000000457 0.9616577
-    ## ENSG00000000460 0.8157061
-    ## ...                   ...
-    ## ENSG00000283115        NA
-    ## ENSG00000283116        NA
-    ## ENSG00000283119        NA
-    ## ENSG00000283120        NA
-    ## ENSG00000283123        NA
-
-``` r
-plotMA(resLFC, ylim=c(-2,2))
-```
-
-![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-36-1.png)
-
-### Volcano plot
-
-Make a volcano plot. Similarly, color-code by whether it's significant or not.
-
-``` r
 ggplot(as.data.frame(res), aes(log2FoldChange, -1*log10(pvalue), col=sig)) + 
     geom_point() + 
     ggtitle("Volcano plot")
@@ -728,10 +669,11 @@ ggplot(as.data.frame(res), aes(log2FoldChange, -1*log10(pvalue), col=sig)) +
 
 ![]({{ site.baseurl }}/class-material/lecture14-BIMM143_W18-lab_files/figure-markdown_github/unnamed-chunk-37-1.png)
 
+
 Side-note: Transformation
 ----------------------------
 
-To test for differential expression we operate on raw counts. But for other downstream analyses like heatmaps, PCA, or clustering, we need to work with transformed versions of the data, because it's not clear how to best compute a distance metric on untransformed counts. The go-to choice might be a log transformation. But because many samples have a zero count (and *l**o**g*(0)= − ∞, you might try using pseudocounts, i. e. *y* = *l**o**g*(*n* + 1) or more generally, *y* = *l**o**g*(*n* + *n*<sub>0</sub>), where *n* represents the count values and *n*<sub>0</sub> is some positive constant.
+To test for differential expression we operate on raw counts. But for other downstream analyses like heatmaps, PCA, or clustering, we need to work with transformed versions of the data, because it's not clear how to best compute a distance metric on untransformed counts. The go-to choice might be a log transformation. But because many samples have a zero count (and *log*(0)= − ∞, you might try using pseudocounts, i. e. *y* = *log*(*n* + 1) or more generally, *y* = *log*(*n* + *n*<sub>0</sub>), where *n* represents the count values and *n*<sub>0</sub> is some positive constant.
 
 But there are other approaches that offer better theoretical justification and a rational way of choosing the parameter equivalent to *n*<sub>0</sub>, and they produce transformed data on the log scale that's normalized to library size. One is called a *variance stabilizing transformation* (VST), and it also removes the dependence of the variance on the mean, particularly the high variance of the log counts when the mean is low.
 
