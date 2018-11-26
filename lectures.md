@@ -538,8 +538,8 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Muddy point assessment
  
 
-**R Knoweledge Check**:
-[**Quiz Assessment**](https://goo.gl/forms/aQIARFj4e1DzImV73){:.no-push-state} 
+**R Knowledge Check**:
+[**Quiz Assessment**](https://docs.google.com/forms/d/e/1FAIpQLSecDj4bcWmVqXqyTI4nsL3gqaVDPogSQmdCiiN-ShIc1M2hJQ/viewform){:.no-push-state} 
 
 
 **Readings**:    
