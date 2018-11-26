@@ -40,15 +40,15 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 15 | Tu, 11/20 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
 |   |   |   |
-| 16 | Th, 11/22 | [**Happy Thanksgiving!**](#16)  | 
+| - | Th, 11/22 | [**Happy Thanksgiving!**]()  | 
 |   |   |   |
-| 17 | Tu, 11/27 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. | 
+| 16 | Tu, 11/27 | [**Biological network analysis**](#16) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. | 
 |   |   |   |
-| 18 | Th, 11/29 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
+| 17 | Th, 11/29 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due on Tuesday 03/13!  | 
 |   |   |   |
-| 19 | Tu, 12/04 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!** | 
+| 18 | Tu, 12/04 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!** | 
 |   |   |   |
-| 20 | Th, 12/06 | [**Final exam!**](#20)  | 
+| 19 | Th, 12/06 | [**Final exam!**](#20)  | 
 |   |   |   | 
 
  
@@ -533,7 +533,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 **Material**:   
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-small.pdf){:.no-push-state}.  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture15_BIMM143_W18.html){:.no-push-state}  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture16_BIMM143_F18.html){:.no-push-state}  
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
 - Muddy point assessment
  
