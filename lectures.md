@@ -533,9 +533,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 **Material**:   
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-small.pdf){:.no-push-state}.  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture16_BIMM143_F18.html){:.no-push-state}  
+- [Hands-on section worksheet Part 1]({{ site.baseurl }}/class-material/lecture16_BIMM143_F18.html){:.no-push-state}  
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
-- - [Hands-on section worksheet Part 2 **Networks**.]({{ site.baseurl }}/class-material/lecture17_BIMM143_F18_lab1.pdf){:.no-push-state}  
+- Optional [Hands-on section worksheet Part 2 (**Networks**).]({{ site.baseurl }}/class-material/lecture17_BIMM143_F18_lab1.pdf){:.no-push-state}  
 - Muddy point assessment
  
 
