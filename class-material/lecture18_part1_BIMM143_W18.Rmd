@@ -1,37 +1,73 @@
 ---
-title: "Investigating cancer genomics datasets"
-output: github_document
+title: "BIMM-143, Lecture 18"
+subtitle: "Investigating cancer genomics datasets"
+output:
+    html_document:
+        keep_md: true
+        theme: cosmo
+        highlight: pygments
+        toc: true
+        toc_float: true
+        toc_depth: 2
+        number_sections: false
+        df_print: paged
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
+<style> 
+h1, .h1 {
+    margin-top: 50px;
+}
+h2, .h2, h3, .h3 {
+    margin-top: 30px;
+}
+body{
+  font-size: 13pt;
+}
+.q_box { 
+  display: block;
+  border: 1px solid Gray; 
+  border-radius: 8px;
+    width: 90%;
+    left: 6px;
+    padding: 5px 5px 5px 15px;
+    color: Red;
+    margin-bottom: 25px;
+}
+
+</style> 
+
+
+
+
 
 **BIMM-143 Lecture 18:**  
-Barry Grant &lt; <http://thegrantlab.org> &gt;  
-Date: 2018-03-07   (15:24:21 PST on Wed, Mar 07)  
-{:.message}  
+Barry Grant &lt; <http://thegrantlab.org/bimm143/> &gt;  
+2018-11-28   (13:43:34 PST on Wed, Nov 28)  
+  
 
+# Overview
 
 Cancer is fundamentally a disease of the genome, caused by changes in the DNA, RNA, and proteins of a cell that push cell growth into overdrive. Identifying the genomic alterations that arise in a given cancer can help researchers decode how a particular cancer develops and improve upon the diagnosis and treatment of cancers based on their distinct molecular abnormalities.  
 
-<img align="right" src="head_up_cancer.png">
+<img align="right" src="https://bioboot.github.io/bggn213_S18/class-material/head_up_cancer.png">
 
 With the ability to sequence whole genomes and exomes, attention has turned to trying to understand the full spectrum of genetic mutations that underlie cancer.  
 
 The genomes or exomes of tens of thousands of cancers have now been sequenced. Analyzing this data can yield important new insights into cancer biology.  This is important because it is estimated that cancer will strike 40% of people at some point in their lifetime with frequently devastating effects.  
 
 
-## The NCI Genomic Data Commons
+# 1. The NCI Genomic Data Commons
 The National Cancer Institute (NCI) in the US has established the [**Genomic Data Commons**](https://gdc.cancer.gov/about-gdc) (or **GDC** for short) for sharing cancer genomics data-sets.  
 
 This includes data from the large scale projects such as **Cancer Genome Atlas** (TCGA) and other projects.  The TGCA project aims to generate comprehensive, multi-dimensional maps of the key genomic changes in major types and sub-types of cancer. As of writing, TCGA has analyzed matched tumor and normal tissues from over 11,000 patients covering 33 cancer types and sub-types.
 
 You can get a feel for the types of cancer data contained in the NCI-GDC by visiting their web portal: [https://portal.gdc.cancer.gov](https://portal.gdc.cancer.gov).
 
-## Section 1. Exploring the GDC online
+## Exploring the GDC online
 Visit the NCI-GDC web portal and enter p53 into the search box.
 
+<div class="q_box">
 > **Q1**. How many *Cases* (i.e. patient samples) have been found to have p53 mutations?
 
 > **Q2**. What are the top 6 misssense mutations found in this gene? <br> **HINT:** Scroll down to the 'TP53 - Protein' section and mouse over the displayed plot. For example **R175H** is found in 156 cases. 
@@ -39,6 +75,7 @@ Visit the NCI-GDC web portal and enter p53 into the search box.
 > **Q3**. Which domain of the protein (as annotated by PFAM) do these mutations reside in?
 
 > **Q4**. What are the top 6 *primary sites* (i.e. cancer locations such as Lung, Brain, etc.) with p53 mutations and how many *primary sites* have p53 mutations been found in? <br> **HINT:** Clicking on the number links in the *Cancer Distribution* section will take you to a summary of available data accross *cases*, *genes*, and *mutations* for p53. Looking at the *cases* data will give you a ranked listing of *primary sites*.
+</div>
 
 ```{r eval=FALSE, include=FALSE}
 #>>> Note to self: the top Missense TP53 R175H could be found in normal sample but the R248Q and R273C could be the ones to go after as theit IMPACT assesments are higher!
@@ -46,6 +83,7 @@ Visit the NCI-GDC web portal and enter p53 into the search box.
 
 Return to the NCI-GDC homepage and using a similar search and explore strategy answer the following questions:
 
+<div class="q_box">
 > **Q5**. What is the most frequentely mutated position associated with cancer in the **KRas** protein (i.e. the amino acid with the most mutations)?  
 
 > **Q6**. Are KRas mutations common in Pancreatic Adenocarcinoma (i.e. is the Pancreas a common '*primary site*' for KRas mutations?).
@@ -55,10 +93,22 @@ Return to the NCI-GDC homepage and using a similar search and explore strategy a
 > **Q7**. What precent of cases for this '*TGCA project*' have KRas mutations and what precent of cases have p53 mutations? <br> **HINT:** Placing your mouse over the project bar in the **Cancer Distribution** panel will bring up a tooltip with useful summary data.  
 
 > **Q8**. How many TGCA Pancreatic Adenocarcinoma *cases* (i.e. patients from the TCGA-PAAD project) have RNA-Seq data available?
+</div>
 
-By now it should be clear that the NCI-GDC is a rich source of both genomic and clinical data for a wide range of cancers. For example, at the time of writing there are 4,434 files associated with Pancreatic Adenocarcinoma and 11,824 for Colon Adenocarcinoma. These include RNA-Seq, WXS (whole exome sequencing), Methylation and Genotyping arrays as well as well as rich metadata associated with each case, file and biospecimen. 
+<br>
 
-## Section 2. The GenomicDataCommons R package
+<img align="right" src="ras_mutants_pov.png">
+
+
+> **Side-Note**: If Barry forgets please remind him to show the top miss-sense mutation sites on the protein structure (and discuss mechanism) as well as demo how to find RNA-Seq FASTQ files and other data such as biopsy images etc.   
+
+
+
+By now it should be clear that the NCI-GDC is a rich source of both genomic and clinical data for a wide range of cancers. For example, at the time of writing there are 5,306 files associated with Pancreatic Adenocarcinoma and 14,278 for Colon Adenocarcinoma. These include RNA-Seq, WXS (whole exome sequencing), Methylation and Genotyping arrays as well as well as rich metadata associated with each case, file and biospecimen.  
+
+
+# 2. The GenomicDataCommons R package
+
 The [GenomicDataCommons](https://bioconductor.org/packages/release/bioc/html/GenomicDataCommons.html) Bioconductor package provides functions for querying, accessing, and mining the NCI-GDC in R. Using this package allows us to couple large cancer genomics data sets (for example the actual RNA-Seq, WXS or SNP data) directly to the plethora of state-of-the-art bioinformatics methods available in R. This is important because it greatly facilitates both targeted and exploratory analysis of molecular cancer data well beyond that accessible via a web portal.
 
 This section highlights how one can couple the [GenomicDataCommons](https://bioconductor.org/packages/release/bioc/html/GenomicDataCommons.html) and [maftools](https://bioconductor.org/packages/release/bioc/html/maftools.html) bioconductor packages to quickly gain insight into public cancer genomics data-sets.
@@ -94,8 +144,9 @@ GenomicDataCommons::status()
 If this statement results in an error such as `SSL connect error`, then please see the [troubleshooting section here](https://bioconductor.org/packages/release/bioc/vignettes/GenomicDataCommons/inst/doc/overview.html#ssl-connection-errors).  
 
 
-## Section 3. Querying the GDC from R
-We will typically start our interaction with the GDC by searching the resource to find data that we are interested in investigating further. In GDC speak is is called *"Querying GDC metadata"*. Metadata here refers to the extra descriptive information associated with the actual patient data (i.e. 'cases') in the GDC. 
+# 3. Querying the GDC from R
+
+We will typically start our interaction with the GDC by searching the resource to find data that we are interested in investigating further. In GDC speak this is called *"Querying GDC metadata"*. Metadata here refers to the extra descriptive information associated with the actual patient data (i.e. 'cases') in the GDC. 
 
 > **For example**: Our query might be '**find how many patients were studied for each major project**' or '**find and download all gene expression quantification data files for all pancreatic cancer patients**'.  We will answer both of these questions below.
 
@@ -111,9 +162,23 @@ head(cases_by_project)
 
 Note that the **facet()** and **aggregations()** functions here are from the `GenomicDataCommons` package and act to group all cases by the project id and then count them up. 
 
-If you use the **View()** fuction on our new `cases_by_project` object you will find that the data we are after is accessibe via `cases_by_project$project.project_id`. 
+If you use the **View()** function on our new `cases_by_project` object you will find that the data we are after is accessible via `cases_by_project$project.project_id`. 
 
+<div class="q_box">
 > **Q9**. Write the R code to make a barplot of the cases per project. Lets plot this data with a log scale for the y axis (`log="y"`), rotated axis labels (`las=2`) and color the bar coresponding to the TCGA-PAAD project.
+
+```{r eval=FALSE}
+x <- cases_by_project$project.project_id
+
+# Make a custom color vector for our plot
+colvec <- rep("lightblue", nrow(x))
+colvec[___] <- "red"
+
+# Plot with 'log' for y axis and rotate labels with 'las'
+#par(___)  
+barplot(___, names.arg=___, log="y", col=colvec, las=2)
+```
+
 
 ```{r echo=FALSE}
 x <- cases_by_project$project.project_id
@@ -127,8 +192,9 @@ par(mar=c(7, 4, 0, 0))
 barplot(x[,2], names.arg=x[,1], log="y", col=colvec, las=2)
 ```
 
+</div>
 
-Lets take another snippet of code from their package vignette and adapt it to answer or second question from above - namely '*find all gene expression data files for all pancreatic cancer patients*':
+Lets take another snippet of code from their package vignette and adapt it to answer our second question from above - namely '*find all gene expression data files for all pancreatic cancer patients*':
 
 
 ```{r}
@@ -140,7 +206,7 @@ file_records <- files() %>%
   response_all()
 ```
 
-The above R code was copied from the package documentation and all we have changed is the addition of our 'TCGA-PAAD' project to focus on the TGCA pancreatic cancer project related data. We will learn more about were the various names and options such as `analysis.workflow_type` etc. come from below (basically they are from CDG database itself!).
+The above R code was copied from the package documentation and all we have changed is the addition of our 'TCGA-PAAD' project to focus on the TGCA pancreatic cancer project related data. We will learn more about were the various names and options such as `analysis.workflow_type` etc. come from below (basically they are from the CDG database itself!).
 
 In RStudio we can now use the **View()** function to get a feel for the data organization and values in the returned `file_records` object.  
 
@@ -150,16 +216,26 @@ View(file_records)
 
 We should see that `file_records$results` contains a row for every RNA-Seq data file from the 'TCGA-PAAD' project. At the time of writing this was 182 RNA-Seq data files.
 
+```{r}
+nrow(file_records$results)
+```
+
+```{r}
+head(file_records$results)
+```
+
 We could download these with standard R tools, or for larger data-sets such as this one, use the packages **transfer()** function, which uses the GDC transfer client (a separate command-line tool) to perform more robust data downloads.
 
 
-## Section 4. Variant analysis with R
+# 4. Variant analysis with R
 
 Note we could go to the NCI-GDC web portal and enter the [Advanced Search page](https://portal.gdc.cancer.gov/query) and then construct a search query to find MAF format somatic mutation files for our 'TCGA-PAAD' project.  
 
 After some exploration of the website I came up with the following query: "`cases.project.project_id in ["TCGA-PAAD"] and files.data_type in ["Masked Somatic Mutation"] and files.data_format in ["MAF"]`".
 
+<div class="q_box">
 > **Q9**. How many MAF files for the TCGA-PAAD project were found from this advanced web search? 
+</div>
 
 Lets do the same search in R with the **files()** function from the `GenomicDataCommons` package. We will be searching based on `data_type`, `data_format`, and `analysis.workflow_type`. The last term here will focus on only one of the MAF files for this project in GDC, namely the MuTect2 workflow variant calls.
 
@@ -172,14 +248,17 @@ maf.files = files() %>%
     ) %>%
     response_all()
 ```
-```{r, eval=FALSE}
-View(maf.files)
+```{r}
+#View(maf.files)
+attributes(maf.files)
 ```
 ```{r}
 head(maf.files$results)
 ```
 
+<div class="q_box">
 > **Q10**. What line in the above code would you modify to return all MAF files for the TCGA-PAAD project? 
+</div>
 
 We will use the **ids()** function to pull out the unique identifier for our MAF file
 
@@ -188,10 +267,12 @@ uid <- ids(maf.files)
 uid
 ```
 
-Once we have the unique identifier(s) (in this case, only fea333b5-78e0-43c8-bf76-4c78dd3fac92), the **gdcdata()** function downloads the associated files and returns a file-name for each identifier.
+Once we have the unique identifier(s) (in this case, only fea333b5-78e0-43c8-bf76-4c78dd3fac92), the **gdcdata()** function downloads the associated files to a cache directory on your computer and returns a file-name for each identifier.
 
 ```{r, cache=TRUE}
-maffile = gdcdata(uid, destination_dir =".")
+#maffile = gdcdata(uid, destination_dir =".")
+maffile = gdcdata(uid)
+
 maffile
 ```
 
@@ -199,14 +280,14 @@ maffile
 ### MAF analysis
 The MAF file is now stored locally and the maftools package workflow, which starts with a MAF file, can proceed, starting with reading the pancreatic cancer MAF file.
 
-```{r}
+```{r, message=FALSE}
 vars = read.maf(maf = maffile, verbose = FALSE)
 ```
 
 With the data now available as a **maftools** MAF object, a lot of functionality is available with little code. While the maftools package offers quite a few functions, here are a few highlights. Cancer genomics and bioinformatics researchers will recognize these plots:
 
 
-###  Plotting MAF summary.
+##  Plotting MAF summary.
 
 We can use `plotmafSummary()` function to plot a summary of the maf object, which displays number of variants in each sample as a stacked barplot and variant types as a boxplot summarized by Variant_Classification. We can add either mean or median line to the stacked barplot to display average/median number of variants across the cohort.
 
@@ -218,7 +299,7 @@ plotmafSummary(maf =vars, rmOutlier = TRUE,
 ```
 
 
-### Drawing oncoplots
+## Drawing oncoplots
 
 A very useful summary representation of this data can be obtained via so-called *oncoplots*, also known as *waterfall plots*. 
 
@@ -226,7 +307,7 @@ A very useful summary representation of this data can be obtained via so-called 
 oncoplot(maf = vars, top = 10)
 ```
 
-You might need to zoom display on the oncoplot() output to see the full plot. You could also send your plot to a PNG or PDF plot device:
+You might to run the **oncoplot()** command in the R Console and then zoom the display to see the full plot (as it is rather large and may not appear initially in your Rmarkdown document before Knitting. Another option is to send your plot to a PNG or PDF plot device directly, for example:
 
 ```{r}
 # Oncoplot for our top 10 most frequently mutated genes
@@ -235,12 +316,13 @@ oncoplot(maf = vars, top = 10, fontSize = 12)
 dev.off()
 ```
 
-> **NOTE**: The **oncoplot()** function is a wrapper around ComplexHeatmap's `OncoPrint()` function with little modification and automation which makes plotting easier. The side and top barplots can be controlled by `drawRowBar()` and `drawColBar()` arguments respectively. There are lots of other customization options as usual with R graphics.
+> **NOTE**: The **oncoplot()** function is a wrapper around ComplexHeatmap's `OncoPrint()` function and there are lots and lots of possible customization options as usual with R graphics.
 
 > **NOTE**: Variants annotated as Multi_Hit are those genes which are mutated more than once in the same sample.
 
-## oncostrip
-We can visualize any set of genes using oncostrip function, which draws mutations in each sample similar to OncoPrinter tool on NCI-GDC web portal. oncostrip can be used to draw any number of genes using top or genes arguments
+## Oncostrip
+
+We can visualize any set of genes using the **oncostrip()** function, which draws mutations in each sample similar to the graphic on the NCI-GDC web portal. Note that **oncostrip()** can be used to draw any number of genes using the input `top` or `genes` arguments
 
 ```{r}
 oncostrip(maf=vars, genes=c("KRAS", "TP53"))
@@ -249,20 +331,22 @@ oncostrip(maf=vars, genes=c("KRAS", "TP53"))
 
 Another plot focusing on KRAS in our particular dataset.
 
-```{r}
-kras.lpop = lollipopPlot(maf = vars, gene = 'KRAS', 
+```{r, message=FALSE}
+lollipopPlot(maf = vars, gene = 'KRAS', 
                          showMutationRate = TRUE, domainLabelSize = 3)
 ```
 
 Lets do one for p53 also
 
-```{r}
-p53.lpop = lollipopPlot(maf = vars, gene = 'TP53')
+```{r, message=FALSE}
+lollipopPlot(maf = vars, gene = 'TP53')
 ```
 
-## Summary
+
+# Summary
+
 Additional functionality is available for both the `GenomicDataCommons` and `maftools` packages not to mention the 100's of other bioinformatics R packages that can now work with this type of data in both exploratory and targeted analysis modes. 
 
-The purpose of this hands-on session was to highlight how one can leverage two such packages to quickly gain insight into public cancer genomics data-sets. Hopefully this will inspire your further exploration of these and other bioinformatics R packages.
+The purpose of this hands-on session was to highlight how one can leverage two such packages to quickly gain insight into rapidly expanding public cancer genomics data-sets. Hopefully this will inspire your further exploration of these and other bioinformatics R packages.
 
 
