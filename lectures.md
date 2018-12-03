@@ -629,7 +629,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
   
 Hand-out: [**Exam guidlines, topics, and example questions**]({{ site.baseurl }}/class-material/BIMM143_exam_guidlines.pdf){:.no-push-state}
 
-Ether-pad: [**Feedback**](https://etherpad.net/p/bimm143_S18){:.no-push-state}.  
+Ether-pad: [**Feedback**](https://etherpad.net/p/bimm143_f18){:.no-push-state}.  
   
   
 <hr>
@@ -652,12 +652,4 @@ Please remember to:
 - No talking or communication (electronic to otherwise) with your fellow students once the exam has begun.
 - **Good luck!**  
 
-
-<hr>
-<a name="21"></a>
-<br>
-
-## 21: Bonus: Bioinformatics & Genomics in industry  
-
-Friday Dec 7th at 1pm come and enjoy a set of short open ended guest lectures from leading genomic scientists at Illumina Inc., Synthetic Genomics Inc., and the La Jolla Institute for Allergy and Immunology. Come prepared for networking and to have your questions about industry careers in Genomics answered. 
 
